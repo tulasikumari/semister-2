@@ -1,13 +1,18 @@
 package Day3;
 
+import java.util.Scanner;
+
 public class Q2 {
     public static void main(String[] args) {
-        int f,s,t,fth,sum;
-        f=Integer.parseInt("enter the num");
-        s=Integer.parseInt("enter the num");
-        t=Integer.parseInt("enter the num");
-        fth=Integer.parseInt("enter the num");
-        sum=f+s+t+fth;
+        Scanner scanner = new Scanner(System.in);
+        int n1, n2, n3, n4, sum;
+        n1 = scanner.nextInt();
+        n2 = scanner.nextInt();
+        n3 = scanner.nextInt();
+        n4 = scanner.nextInt();
+        sum = n1 + n2 + n3 + n4;
         System.out.println(sum);
     }
 }
+
+
